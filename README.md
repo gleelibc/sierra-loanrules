@@ -2,7 +2,7 @@ Sierra Loanrules
 ===============
 Method for hosted Sierra sites to retrieve loanrule data
 
-One issue with being hosted by iii is that the data files containing loanrule and determiner data is not easily accessible. Although the data is viewable in the client, it's not easy to navigate back and forth between the two displays, especially in a hurry.
+One issue with being hosted by iii is that the data files containing loanrule and determiner data are not easily accessible. Although the data is viewable in the client, it's not easy to navigate back and forth between the two displays, especially in a hurry.
 
 We discovered that when Sierra desktop opens each of these two tables, the entirety of the two data files are read into java's standard output, which you can see in the iiirunner (console) window or a text file.
 
@@ -20,6 +20,6 @@ To set output to a text file:
 Tested on an iii-hosted site on Sierra 3.1. Please feel free to contact us about any problems or suggestions. Thanks!
 
 TODO List:
-- [ ] Script to pull out datafile sections from console output
+- [ ] Script to extract the datafile sections automatically from the outputted file
 - [ ] Scripts to manipulate table data (such as showing active/inactive determiners in LR table)
 - [ ] Web-based UI for viewing/filtering table(s)
